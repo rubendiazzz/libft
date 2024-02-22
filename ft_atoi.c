@@ -36,10 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (res * neg);
 }
-/*int	main(void)
-{
-	printf("Atoi original: %i", atoi("  -42")); // DEBUG ATOI ORIGINAL
-	printf("\n");
-	printf("Atoi propio: %i", ft_atoi("  -42")); // DEBUG MI ATOI
-	return (0);
-}*/
